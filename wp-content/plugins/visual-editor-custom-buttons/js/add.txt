@@ -1,0 +1,8 @@
+'<?php echo include once images.php ?>'
+ed.addButton('vecb_button2', {				
+				var new_content='<?php echo image_disign('+ed.selection.getContent()+');' ?>';
+				image_disign(ed.selection.getContent());
+                title : 'ќформить',image : url+'/icons/box.png',onclick : function() {
+                     ed.selection.setContent('<div style="display:inline-block; width:auto;hight:140px;border:solid 2px #aaa;float:left">' + ed.selection.getContent() + '</div><div style="clear:left;></div>');
+                }
+            });
